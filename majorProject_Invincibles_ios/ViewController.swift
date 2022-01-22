@@ -9,9 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func mCreateTask(_ sender: UIButton) {
+        print("Create Task Clicked")
+    }
+    
+    
+    @IBAction func mCreateCategory(_ sender: UIButton) {
+        print("Create Category Clicked")
+    }
+    
+    
+    @IBAction func mSeeList(_ sender: UIButton) {
+        print("See task list Clicked")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
