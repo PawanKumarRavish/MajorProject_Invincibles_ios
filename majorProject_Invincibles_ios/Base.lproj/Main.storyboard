@@ -23,6 +23,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tw8-fu-raq">
+                                <rect key="frame" x="20" y="20" width="46" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="chevron.backward.2" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="0yT-mi-I8Z" kind="show" id="kXF-JH-GH9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zeh-ze-aw7"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -31,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ohu-7M-hGR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2346" y="303"/>
+            <point key="canvasLocation" x="-2346.376811594203" y="302.00892857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VAN-ZU-FGg">
@@ -48,6 +57,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9V-2D-JOi">
+                                <rect key="frame" x="31" y="30" width="46" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="chevron.backward.2" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="0yT-mi-I8Z" kind="show" id="ssF-LP-oHQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CBa-NA-YA9"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -56,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sTV-SH-ymn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2117" y="131"/>
+            <point key="canvasLocation" x="-2684" y="-350"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="n2j-49-kKB">
@@ -150,6 +168,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwq-sU-kFW">
+                                <rect key="frame" x="19" y="36" width="46" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="chevron.backward.2" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="0yT-mi-I8Z" kind="show" id="KAd-Ss-6u4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0um-bA-WIl"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -196,11 +223,11 @@
             <objects>
                 <viewController id="0yT-mi-I8Z" customClass="ViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bWe-HK-6Oq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Task Manager " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ap-Oc-7Aw">
-                                <rect key="frame" x="-1" y="83" width="415" height="33.5"/>
+                                <rect key="frame" x="-1" y="39" width="415" height="33.5"/>
                                 <color key="backgroundColor" systemColor="quaternarySystemFillColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
@@ -258,13 +285,18 @@
                             <constraint firstItem="0ap-Oc-7Aw" firstAttribute="top" secondItem="hwF-L8-1Nf" secondAttribute="top" constant="39" id="wHm-6a-LjY"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="M6d-2O-IGH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sa7-3e-ear" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3712" y="124"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="kXF-JH-GH9"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="chevron.backward.2" catalog="system" width="128" height="105"/>
         <systemColor name="quaternarySystemFillColor">
             <color red="0.45490196078431372" green="0.45490196078431372" blue="0.50196078431372548" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
