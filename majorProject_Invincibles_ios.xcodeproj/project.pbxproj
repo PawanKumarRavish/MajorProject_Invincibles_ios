@@ -14,6 +14,14 @@
 		5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB4C279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld */; };
 		5BA3AB50279A24E5002958CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB4F279A24E5002958CA /* Assets.xcassets */; };
 		5BA3AB53279A24E5002958CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB51279A24E5002958CA /* LaunchScreen.storyboard */; };
+		C49DEE8E27A2F7970043FCDC /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8327A2F7970043FCDC /* TasksViewController.swift */; };
+		C49DEE8F27A2F7970043FCDC /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8427A2F7970043FCDC /* TaskDetailViewController.swift */; };
+		C49DEE9227A2F7970043FCDC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8827A2F7970043FCDC /* BaseViewController.swift */; };
+		C49DEE9327A2F7970043FCDC /* SubTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8927A2F7970043FCDC /* SubTasksViewController.swift */; };
+		C49DEE9427A2F7970043FCDC /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8A27A2F7970043FCDC /* RecordAudioViewController.swift */; };
+		C49DEE9527A2F7970043FCDC /* AddSubTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8B27A2F7970043FCDC /* AddSubTaskViewController.swift */; };
+		C49DEE9627A2F7970043FCDC /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8C27A2F7970043FCDC /* CategoriesListViewController.swift */; };
+		C49DEE9727A2F7970043FCDC /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE8D27A2F7970043FCDC /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		5BA3AB4F279A24E5002958CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA3AB52279A24E5002958CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA3AB54279A24E5002958CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49DEE8327A2F7970043FCDC /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		C49DEE8427A2F7970043FCDC /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		C49DEE8827A2F7970043FCDC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C49DEE8927A2F7970043FCDC /* SubTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTasksViewController.swift; sourceTree = "<group>"; };
+		C49DEE8A27A2F7970043FCDC /* RecordAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		C49DEE8B27A2F7970043FCDC /* AddSubTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskViewController.swift; sourceTree = "<group>"; };
+		C49DEE8C27A2F7970043FCDC /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
+		C49DEE8D27A2F7970043FCDC /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 		5BA3AB42279A24E5002958CA /* majorProject_Invincibles_ios */ = {
 			isa = PBXGroup;
 			children = (
+				C49DEE8227A2F7970043FCDC /* View */,
 				5BA3AB43279A24E5002958CA /* AppDelegate.swift */,
 				5BA3AB45279A24E5002958CA /* SceneDelegate.swift */,
 				5BA3AB47279A24E5002958CA /* ViewController.swift */,
@@ -68,6 +85,21 @@
 				5BA3AB4C279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld */,
 			);
 			path = majorProject_Invincibles_ios;
+			sourceTree = "<group>";
+		};
+		C49DEE8227A2F7970043FCDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C49DEE8327A2F7970043FCDC /* TasksViewController.swift */,
+				C49DEE8427A2F7970043FCDC /* TaskDetailViewController.swift */,
+				C49DEE8827A2F7970043FCDC /* BaseViewController.swift */,
+				C49DEE8927A2F7970043FCDC /* SubTasksViewController.swift */,
+				C49DEE8A27A2F7970043FCDC /* RecordAudioViewController.swift */,
+				C49DEE8B27A2F7970043FCDC /* AddSubTaskViewController.swift */,
+				C49DEE8C27A2F7970043FCDC /* CategoriesListViewController.swift */,
+				C49DEE8D27A2F7970043FCDC /* AddTaskViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49DEE8F27A2F7970043FCDC /* TaskDetailViewController.swift in Sources */,
+				C49DEE9327A2F7970043FCDC /* SubTasksViewController.swift in Sources */,
+				C49DEE9627A2F7970043FCDC /* CategoriesListViewController.swift in Sources */,
 				5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */,
 				5BA3AB48279A24E5002958CA /* ViewController.swift in Sources */,
+				C49DEE8E27A2F7970043FCDC /* TasksViewController.swift in Sources */,
+				C49DEE9527A2F7970043FCDC /* AddSubTaskViewController.swift in Sources */,
+				C49DEE9227A2F7970043FCDC /* BaseViewController.swift in Sources */,
+				C49DEE9427A2F7970043FCDC /* RecordAudioViewController.swift in Sources */,
 				5BA3AB44279A24E5002958CA /* AppDelegate.swift in Sources */,
 				5BA3AB46279A24E5002958CA /* SceneDelegate.swift in Sources */,
+				C49DEE9727A2F7970043FCDC /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
