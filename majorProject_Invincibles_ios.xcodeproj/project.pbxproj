@@ -23,6 +23,7 @@
 		9BA0F69D27A304E400EED200 /* AddSubTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F69127A304E400EED200 /* AddSubTaskViewController.swift */; };
 		9BA0F69F27A304E400EED200 /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F69427A304E400EED200 /* CategoriesListViewController.swift */; };
 		9BA0F6A027A304E400EED200 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F69527A304E400EED200 /* AddTaskViewController.swift */; };
+		9BA0F6A227A3083000EED200 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F6A127A3083000EED200 /* TasksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		9BA0F69127A304E400EED200 /* AddSubTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskViewController.swift; sourceTree = "<group>"; };
 		9BA0F69427A304E400EED200 /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
 		9BA0F69527A304E400EED200 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		9BA0F6A127A3083000EED200 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		9BA0F68827A304E400EED200 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BA0F6A127A3083000EED200 /* TasksViewController.swift */,
 				9BA0F68A27A304E400EED200 /* TaskDetailViewController.swift */,
 				9BA0F68B27A304E400EED200 /* Cells */,
 				9BA0F68E27A304E400EED200 /* BaseViewController.swift */,
@@ -188,6 +191,7 @@
 				9BA0F69927A304E400EED200 /* TaskTableViewCell.swift in Sources */,
 				9BA0F69727A304E400EED200 /* TaskDetailViewController.swift in Sources */,
 				9BA0F69B27A304E400EED200 /* SubTasksViewController.swift in Sources */,
+				9BA0F6A227A3083000EED200 /* TasksViewController.swift in Sources */,
 				9BA0F69F27A304E400EED200 /* CategoriesListViewController.swift in Sources */,
 				5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */,
 				5BA3AB48279A24E5002958CA /* ViewController.swift in Sources */,

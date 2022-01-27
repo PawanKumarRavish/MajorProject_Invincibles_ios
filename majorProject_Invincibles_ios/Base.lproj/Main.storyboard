@@ -13,7 +13,7 @@
         <!--Add Sub Task-->
         <scene sceneID="2gY-g9-zdm">
             <objects>
-                <viewController storyboardIdentifier="AddSubTaskViewController" id="82X-UW-DLm" customClass="AddSubTaskViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddSubTaskViewController" id="82X-UW-DLm" customClass="AddSubTaskViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z02-JW-mBd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="PzE-Xs-NB8" customClass="PhotoCollectionViewCell" customModule="TaskManager" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="PzE-Xs-NB8" customClass="PhotoCollectionViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-9" width="128" height="128"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kPK-TX-Xes">
@@ -240,7 +240,7 @@
         <!--Record Audio-->
         <scene sceneID="O1y-Hj-TLI">
             <objects>
-                <viewController storyboardIdentifier="RecordAudioViewController" id="taf-3H-myk" customClass="RecordAudioViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecordAudioViewController" id="taf-3H-myk" customClass="RecordAudioViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kFT-pD-UUN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -317,8 +317,8 @@
         <!--Tasks-->
         <scene sceneID="tyu-JC-Co0">
             <objects>
-                <viewController storyboardIdentifier="TasksViewController" title="Tasks" id="15k-ve-dEn" customClass="TasksViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xFa-F7-2gV">
+                <viewController storyboardIdentifier="TasksViewController" title="Tasks" id="15k-ve-dEn" customClass="TasksViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="xFa-F7-2gV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -334,7 +334,7 @@
                                     </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasks" rowHeight="102" id="lW8-3m-zhB" customClass="TaskTableViewCell" customModule="TaskManager" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasks" rowHeight="102" id="lW8-3m-zhB" customClass="TaskTableViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="88.5" width="414" height="102"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lW8-3m-zhB" id="FeJ-ec-2KE">
@@ -431,12 +431,12 @@
         <!--Categories-->
         <scene sceneID="X0N-sU-fVH">
             <objects>
-                <viewController storyboardIdentifier="CategoriesListViewController" title="Categories" id="oaQ-IA-NnM" customClass="CategoriesListViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bnp-kO-0Es">
+                <viewController storyboardIdentifier="CategoriesListViewController" title="Categories" id="oaQ-IA-NnM" customClass="CategoriesListViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="bnp-kO-0Es">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="q2P-86-xlO">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="q2P-86-xlO">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -517,7 +517,7 @@
         <!--Add Task-->
         <scene sceneID="Exp-6R-HNi">
             <objects>
-                <viewController storyboardIdentifier="AddTaskViewController" id="T4j-iA-B1S" customClass="AddTaskViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddTaskViewController" id="T4j-iA-B1S" customClass="AddTaskViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mbw-8S-KGR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -605,7 +605,7 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="tWB-gv-sZx" customClass="PhotoCollectionViewCell" customModule="TaskManager" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="tWB-gv-sZx" customClass="PhotoCollectionViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-9" width="128" height="128"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gdL-x1-eCn">
@@ -790,8 +790,8 @@
         <!--Sub Tasks-->
         <scene sceneID="FuD-oo-YrJ">
             <objects>
-                <viewController storyboardIdentifier="SubTasksViewController" id="vWg-Sh-7Yk" customClass="SubTasksViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Xyj-96-1Gs">
+                <viewController storyboardIdentifier="SubTasksViewController" id="vWg-Sh-7Yk" customClass="SubTasksViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Xyj-96-1Gs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -807,7 +807,7 @@
                                     </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasks" rowHeight="102" id="YMJ-Wr-9ON" customClass="TaskTableViewCell" customModule="TaskManager" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasks" rowHeight="102" id="YMJ-Wr-9ON" customClass="TaskTableViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="88.5" width="414" height="102"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YMJ-Wr-9ON" id="sQ6-90-TEt">
@@ -903,7 +903,7 @@
         <!--Task Detail-->
         <scene sceneID="T8W-Nt-Drk">
             <objects>
-                <viewController storyboardIdentifier="TaskDetailViewController" id="GdM-Ct-9Kr" customClass="TaskDetailViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TaskDetailViewController" id="GdM-Ct-9Kr" customClass="TaskDetailViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KdB-zf-5e0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -983,7 +983,7 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="3wo-c2-WcP" customClass="PhotoCollectionViewCell" customModule="TaskManager" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="3wo-c2-WcP" customClass="PhotoCollectionViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-9" width="128" height="128"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="09w-UM-BZm">
