@@ -14,7 +14,6 @@
 		5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB4C279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld */; };
 		5BA3AB50279A24E5002958CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB4F279A24E5002958CA /* Assets.xcassets */; };
 		5BA3AB53279A24E5002958CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB51279A24E5002958CA /* LaunchScreen.storyboard */; };
-		9BA0F69627A304E400EED200 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F68927A304E400EED200 /* TasksViewController.swift */; };
 		9BA0F69727A304E400EED200 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F68A27A304E400EED200 /* TaskDetailViewController.swift */; };
 		9BA0F69827A304E400EED200 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F68C27A304E400EED200 /* PhotoCollectionViewCell.swift */; };
 		9BA0F69927A304E400EED200 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F68D27A304E400EED200 /* TaskTableViewCell.swift */; };
@@ -36,7 +35,6 @@
 		5BA3AB4F279A24E5002958CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA3AB52279A24E5002958CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA3AB54279A24E5002958CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BA0F68927A304E400EED200 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		9BA0F68A27A304E400EED200 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		9BA0F68C27A304E400EED200 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		9BA0F68D27A304E400EED200 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 		9BA0F68827A304E400EED200 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9BA0F68927A304E400EED200 /* TasksViewController.swift */,
 				9BA0F68A27A304E400EED200 /* TaskDetailViewController.swift */,
 				9BA0F68B27A304E400EED200 /* Cells */,
 				9BA0F68E27A304E400EED200 /* BaseViewController.swift */,
@@ -194,7 +191,6 @@
 				9BA0F69F27A304E400EED200 /* CategoriesListViewController.swift in Sources */,
 				5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */,
 				5BA3AB48279A24E5002958CA /* ViewController.swift in Sources */,
-				9BA0F69627A304E400EED200 /* TasksViewController.swift in Sources */,
 				9BA0F69D27A304E400EED200 /* AddSubTaskViewController.swift in Sources */,
 				9BA0F69A27A304E400EED200 /* BaseViewController.swift in Sources */,
 				9BA0F69C27A304E400EED200 /* RecordAudioViewController.swift in Sources */,
