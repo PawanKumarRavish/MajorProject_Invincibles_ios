@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SfA-KT-yne">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SfA-KT-yne">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -141,7 +141,7 @@
         <!--Sub Tasks-->
         <scene sceneID="rOZ-bv-EEd">
             <objects>
-                <viewController storyboardIdentifier="SubTasksViewController" id="MGU-zX-YCZ" customClass="SubTasksViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubTasksViewController" id="MGU-zX-YCZ" customClass="SubTasksViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ibd-qj-XZW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,7 +158,7 @@
                                     </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasks" rowHeight="102" id="hMT-zR-kqE" customClass="TaskTableViewCell" customModule="TaskManager" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasks" rowHeight="102" id="hMT-zR-kqE" customClass="TaskTableViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="88.5" width="414" height="102"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hMT-zR-kqE" id="nul-nq-hae">
@@ -254,7 +254,7 @@
         <!--Add Sub Task-->
         <scene sceneID="d9o-H7-wji">
             <objects>
-                <viewController storyboardIdentifier="AddSubTaskViewController" id="ufz-52-7NE" customClass="AddSubTaskViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddSubTaskViewController" id="ufz-52-7NE" customClass="AddSubTaskViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-8D-WNw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -340,7 +340,7 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="SU3-m1-uUA" customClass="PhotoCollectionViewCell" customModule="TaskManager" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="SU3-m1-uUA" customClass="PhotoCollectionViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-9" width="128" height="128"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="x6o-FP-H2a">
@@ -376,7 +376,7 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WF9-73-Wtj">
-                                                <rect key="frame" x="136" y="320.5" width="126" height="31"/>
+                                                <rect key="frame" x="137" y="320.5" width="124" height="31"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="Add Pictures"/>
@@ -417,7 +417,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58L-jh-8As">
-                                                <rect key="frame" x="144" y="431.5" width="110" height="31"/>
+                                                <rect key="frame" x="145" y="431.5" width="108" height="31"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="Add Audio"/>
@@ -478,7 +478,7 @@
         <!--Task Detail-->
         <scene sceneID="res-9W-dHm">
             <objects>
-                <viewController storyboardIdentifier="TaskDetailViewController" id="1LH-ym-JBN" customClass="TaskDetailViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TaskDetailViewController" id="1LH-ym-JBN" customClass="TaskDetailViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7xU-5W-DNk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,7 +558,7 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="Dcn-mD-5Lx" customClass="PhotoCollectionViewCell" customModule="TaskManager" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCollectionViewCell" id="Dcn-mD-5Lx" customClass="PhotoCollectionViewCell" customModule="majorProject_Invincibles_ios" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-9" width="128" height="128"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rc3-bz-DZm">
@@ -719,6 +719,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tsI-C0-zX5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2191" y="71"/>
+        </scene>
+        <!--Categories-->
+        <scene sceneID="yaa-CH-Nry">
+            <objects>
+                <viewController storyboardIdentifier="CategoriesListViewController" title="Categories" id="uSh-sr-UEq" customClass="CategoriesListViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4fU-Kf-Ln4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-bK-WkY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="category" rowHeight="102" id="1D3-G5-Hkn">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="102"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1D3-G5-Hkn" id="OQG-Pu-7to">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="102"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="uSh-sr-UEq" id="waS-YK-ch0"/>
+                                    <outlet property="delegate" destination="uSh-sr-UEq" id="vuA-us-XPC"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No categories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gWO-oL-noy">
+                                <rect key="frame" x="0.0" y="399" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="H5r-zD-wU2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gWO-oL-noy" firstAttribute="centerY" secondItem="EhT-bK-WkY" secondAttribute="centerY" id="3CK-26-0yl"/>
+                            <constraint firstItem="EhT-bK-WkY" firstAttribute="bottom" secondItem="H5r-zD-wU2" secondAttribute="bottom" id="5zO-tX-56n"/>
+                            <constraint firstItem="EhT-bK-WkY" firstAttribute="leading" secondItem="H5r-zD-wU2" secondAttribute="leading" id="BEy-up-lxd"/>
+                            <constraint firstItem="EhT-bK-WkY" firstAttribute="trailing" secondItem="H5r-zD-wU2" secondAttribute="trailing" id="ODK-Px-Hit"/>
+                            <constraint firstItem="EhT-bK-WkY" firstAttribute="top" secondItem="H5r-zD-wU2" secondAttribute="top" id="QIA-Ie-qbC"/>
+                            <constraint firstItem="gWO-oL-noy" firstAttribute="centerX" secondItem="EhT-bK-WkY" secondAttribute="centerX" id="hlV-Sc-2bU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Categories" largeTitleDisplayMode="always" id="fmC-Ym-xUI">
+                        <barButtonItem key="rightBarButtonItem" id="gY8-aw-q4x">
+                            <imageReference key="image" image="plus" catalog="system" renderingMode="hierarchical">
+                                <hierarchicalColors>
+                                    <color systemColor="labelColor"/>
+                                    <color systemColor="secondaryLabelColor"/>
+                                    <color systemColor="tertiaryLabelColor"/>
+                                </hierarchicalColors>
+                            </imageReference>
+                            <connections>
+                                <action selector="addAction:" destination="uSh-sr-UEq" id="PvT-Lg-Ou1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="categoriesTableView" destination="EhT-bK-WkY" id="h4y-Al-Phm"/>
+                        <outlet property="notCateLabel" destination="gWO-oL-noy" id="7pI-R8-ybY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7G-ik-aTE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="-1418"/>
         </scene>
     </scenes>
     <resources>
