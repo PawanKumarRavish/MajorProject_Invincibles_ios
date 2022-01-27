@@ -24,6 +24,9 @@
 		9BA0F69F27A304E400EED200 /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F69427A304E400EED200 /* CategoriesListViewController.swift */; };
 		9BA0F6A027A304E400EED200 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F69527A304E400EED200 /* AddTaskViewController.swift */; };
 		9BA0F6A227A3083000EED200 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F6A127A3083000EED200 /* TasksViewController.swift */; };
+		BA824E6327A30291002AC20F /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E5C27A30291002AC20F /* TasksViewModel.swift */; };
+		BA824E6427A30291002AC20F /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E5D27A30291002AC20F /* AddTaskViewModel.swift */; };
+		BA824E6527A30291002AC20F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E5E27A30291002AC20F /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		9BA0F69427A304E400EED200 /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
 		9BA0F69527A304E400EED200 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		9BA0F6A127A3083000EED200 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		BA824E5C27A30291002AC20F /* TasksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		BA824E5D27A30291002AC20F /* AddTaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		BA824E5E27A30291002AC20F /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		5BA3AB42279A24E5002958CA /* majorProject_Invincibles_ios */ = {
 			isa = PBXGroup;
 			children = (
+				BA824E5927A30291002AC20F /* ViewModel */,
 				9BA0F68827A304E400EED200 /* View */,
 				5BA3AB43279A24E5002958CA /* AppDelegate.swift */,
 				5BA3AB45279A24E5002958CA /* SceneDelegate.swift */,
@@ -115,6 +122,16 @@
 				9BA0F68D27A304E400EED200 /* TaskTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA824E5927A30291002AC20F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA824E5C27A30291002AC20F /* TasksViewModel.swift */,
+				BA824E5D27A30291002AC20F /* AddTaskViewModel.swift */,
+				BA824E5E27A30291002AC20F /* Observable.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA824E6527A30291002AC20F /* Observable.swift in Sources */,
 				9BA0F69927A304E400EED200 /* TaskTableViewCell.swift in Sources */,
+				BA824E6427A30291002AC20F /* AddTaskViewModel.swift in Sources */,
+				BA824E6327A30291002AC20F /* TasksViewModel.swift in Sources */,
 				9BA0F69727A304E400EED200 /* TaskDetailViewController.swift in Sources */,
 				9BA0F69B27A304E400EED200 /* SubTasksViewController.swift in Sources */,
 				9BA0F6A227A3083000EED200 /* TasksViewController.swift in Sources */,
