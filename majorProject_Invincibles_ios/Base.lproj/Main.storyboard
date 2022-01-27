@@ -791,7 +791,7 @@
         <scene sceneID="FuD-oo-YrJ">
             <objects>
                 <viewController storyboardIdentifier="SubTasksViewController" id="vWg-Sh-7Yk" customClass="SubTasksViewController" customModule="majorProject_Invincibles_ios" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Xyj-96-1Gs">
+                    <view key="view" contentMode="scaleToFill" id="Xyj-96-1Gs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
