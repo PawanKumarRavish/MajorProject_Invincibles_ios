@@ -11,7 +11,7 @@ extension Bundle {
             if let bundle = Bundle(url: bundleURL) {
                 return bundle
             } else {
-                assertionFailure("Could  load the bundle")
+                assertionFailure("Could not load the bundle")
             }
         } else {
             assertionFailure("Could not create a path to the bundle")
