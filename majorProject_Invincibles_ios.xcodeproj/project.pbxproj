@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B704D3C27A37998005FD29A /* AKAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D3927A37998005FD29A /* AKAudioRecorder.swift */; };
+		5B704D3D27A37998005FD29A /* CoreDtaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D3A27A37998005FD29A /* CoreDtaManager.swift */; };
+		5B704D3E27A37998005FD29A /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D3B27A37998005FD29A /* DirectoryManager.swift */; };
 		5BA3AB44279A24E5002958CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB43279A24E5002958CA /* AppDelegate.swift */; };
 		5BA3AB46279A24E5002958CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB45279A24E5002958CA /* SceneDelegate.swift */; };
 		5BA3AB48279A24E5002958CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB47279A24E5002958CA /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B704D3927A37998005FD29A /* AKAudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKAudioRecorder.swift; sourceTree = "<group>"; };
+		5B704D3A27A37998005FD29A /* CoreDtaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDtaManager.swift; sourceTree = "<group>"; };
+		5B704D3B27A37998005FD29A /* DirectoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryManager.swift; sourceTree = "<group>"; };
 		5BA3AB40279A24E5002958CA /* majorProject_Invincibles_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = majorProject_Invincibles_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA3AB43279A24E5002958CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA3AB45279A24E5002958CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +207,9 @@
 		C49DEEA427A36ADD0043FCDC /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				5B704D3927A37998005FD29A /* AKAudioRecorder.swift */,
+				5B704D3A27A37998005FD29A /* CoreDtaManager.swift */,
+				5B704D3B27A37998005FD29A /* DirectoryManager.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -286,12 +295,15 @@
 				C49DEEAB27A36ADD0043FCDC /* OpalImagePickerConfiguration.swift in Sources */,
 				C49DEEAD27A36ADD0043FCDC /* ImagePickerCollectionViewCell.swift in Sources */,
 				BA824E7227A34FB1002AC20F /* TasksViewModel.swift in Sources */,
+				5B704D3C27A37998005FD29A /* AKAudioRecorder.swift in Sources */,
 				93448BFD27A34E1E00FB63C4 /* PhotoCollectionViewCell.swift in Sources */,
+				5B704D3D27A37998005FD29A /* CoreDtaManager.swift in Sources */,
 				C49DEEAC27A36ADD0043FCDC /* UIView+Helper.swift in Sources */,
 				93448BFE27A34E1E00FB63C4 /* TaskTableViewCell.swift in Sources */,
 				93448C0227A34E1E00FB63C4 /* AddSubTaskViewController.swift in Sources */,
 				93448BFB27A34E1E00FB63C4 /* TasksViewController.swift in Sources */,
 				93448C0327A34E1E00FB63C4 /* CategoriesListViewController.swift in Sources */,
+				5B704D3E27A37998005FD29A /* DirectoryManager.swift in Sources */,
 				BA824E7127A34FB1002AC20F /* TaskDetailViewModel.swift in Sources */,
 				BA824E7527A34FB1002AC20F /* CategoriesListViewModel.swift in Sources */,
 				93448BFF27A34E1E00FB63C4 /* BaseViewController.swift in Sources */,
