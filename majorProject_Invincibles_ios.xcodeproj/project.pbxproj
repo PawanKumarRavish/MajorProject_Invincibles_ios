@@ -7,83 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B704D3C27A37998005FD29A /* AKAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D3927A37998005FD29A /* AKAudioRecorder.swift */; };
-		5B704D3D27A37998005FD29A /* CoreDtaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D3A27A37998005FD29A /* CoreDtaManager.swift */; };
-		5B704D3E27A37998005FD29A /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D3B27A37998005FD29A /* DirectoryManager.swift */; };
+		5B704D6827A38707005FD29A /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D5B27A38707005FD29A /* OpalImagePickerRootViewController.swift */; };
+		5B704D6927A38707005FD29A /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D5C27A38707005FD29A /* Bundle+Helper.swift */; };
+		5B704D6A27A38707005FD29A /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D5D27A38707005FD29A /* OpalImagePickerController.swift */; };
+		5B704D6B27A38707005FD29A /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D5E27A38707005FD29A /* OpalImagePickerConfiguration.swift */; };
+		5B704D6C27A38707005FD29A /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D5F27A38707005FD29A /* UIView+Helper.swift */; };
+		5B704D6D27A38707005FD29A /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6027A38707005FD29A /* ImagePickerCollectionViewCell.swift */; };
+		5B704D6E27A38707005FD29A /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6127A38707005FD29A /* UIViewController+OpalImagePicker.swift */; };
+		5B704D6F27A38707005FD29A /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6227A38707005FD29A /* TimeInterval+String.swift */; };
+		5B704D7027A38707005FD29A /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6327A38707005FD29A /* OpalImagePickerCollectionViewLayout.swift */; };
+		5B704D7127A38707005FD29A /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6527A38707005FD29A /* DirectoryManager.swift */; };
+		5B704D7227A38707005FD29A /* CoreDtaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6627A38707005FD29A /* CoreDtaManager.swift */; };
+		5B704D7327A38707005FD29A /* AKAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D6727A38707005FD29A /* AKAudioRecorder.swift */; };
+		5B704D8227A3871B005FD29A /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7527A3871B005FD29A /* TasksViewController.swift */; };
+		5B704D8327A3871B005FD29A /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7627A3871B005FD29A /* TaskDetailViewController.swift */; };
+		5B704D8427A3871B005FD29A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7827A3871B005FD29A /* PhotoCollectionViewCell.swift */; };
+		5B704D8527A3871B005FD29A /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7927A3871B005FD29A /* TaskTableViewCell.swift */; };
+		5B704D8627A3871B005FD29A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7A27A3871B005FD29A /* BaseViewController.swift */; };
+		5B704D8727A3871B005FD29A /* SubTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7B27A3871B005FD29A /* SubTasksViewController.swift */; };
+		5B704D8827A3871B005FD29A /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7C27A3871B005FD29A /* RecordAudioViewController.swift */; };
+		5B704D8927A3871B005FD29A /* AddSubTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D7D27A3871B005FD29A /* AddSubTaskViewController.swift */; };
+		5B704D8A27A3871B005FD29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B704D7E27A3871B005FD29A /* Main.storyboard */; };
+		5B704D8B27A3871B005FD29A /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D8027A3871B005FD29A /* CategoriesListViewController.swift */; };
+		5B704D8C27A3871B005FD29A /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D8127A3871B005FD29A /* AddTaskViewController.swift */; };
+		5B704D9527A38724005FD29A /* AddSubTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D8E27A38724005FD29A /* AddSubTaskViewModel.swift */; };
+		5B704D9627A38724005FD29A /* TaskDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D8F27A38724005FD29A /* TaskDetailViewModel.swift */; };
+		5B704D9727A38724005FD29A /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D9027A38724005FD29A /* TasksViewModel.swift */; };
+		5B704D9827A38724005FD29A /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D9127A38724005FD29A /* AddTaskViewModel.swift */; };
+		5B704D9927A38724005FD29A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D9227A38724005FD29A /* Observable.swift */; };
+		5B704D9A27A38724005FD29A /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D9327A38724005FD29A /* CategoriesListViewModel.swift */; };
+		5B704D9B27A38724005FD29A /* SubTasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D9427A38724005FD29A /* SubTasksViewModel.swift */; };
+		5B704D9E27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B704D9C27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodeld */; };
 		5BA3AB44279A24E5002958CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB43279A24E5002958CA /* AppDelegate.swift */; };
 		5BA3AB46279A24E5002958CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB45279A24E5002958CA /* SceneDelegate.swift */; };
 		5BA3AB48279A24E5002958CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB47279A24E5002958CA /* ViewController.swift */; };
-		5BA3AB4B279A24E5002958CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB49279A24E5002958CA /* Main.storyboard */; };
-		5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3AB4C279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld */; };
 		5BA3AB50279A24E5002958CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB4F279A24E5002958CA /* Assets.xcassets */; };
 		5BA3AB53279A24E5002958CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3AB51279A24E5002958CA /* LaunchScreen.storyboard */; };
-		93448BFB27A34E1E00FB63C4 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF027A34E1E00FB63C4 /* TasksViewController.swift */; };
-		93448BFC27A34E1E00FB63C4 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF127A34E1E00FB63C4 /* TaskDetailViewController.swift */; };
-		93448BFD27A34E1E00FB63C4 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF327A34E1E00FB63C4 /* PhotoCollectionViewCell.swift */; };
-		93448BFE27A34E1E00FB63C4 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF427A34E1E00FB63C4 /* TaskTableViewCell.swift */; };
-		93448BFF27A34E1E00FB63C4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF527A34E1E00FB63C4 /* BaseViewController.swift */; };
-		93448C0027A34E1E00FB63C4 /* SubTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF627A34E1E00FB63C4 /* SubTasksViewController.swift */; };
-		93448C0127A34E1E00FB63C4 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF727A34E1E00FB63C4 /* RecordAudioViewController.swift */; };
-		93448C0227A34E1E00FB63C4 /* AddSubTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF827A34E1E00FB63C4 /* AddSubTaskViewController.swift */; };
-		93448C0327A34E1E00FB63C4 /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BF927A34E1E00FB63C4 /* CategoriesListViewController.swift */; };
-		93448C0427A34E1E00FB63C4 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93448BFA27A34E1E00FB63C4 /* AddTaskViewController.swift */; };
-		BA824E7027A34FB1002AC20F /* AddSubTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6927A34FB1002AC20F /* AddSubTaskViewModel.swift */; };
-		BA824E7127A34FB1002AC20F /* TaskDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6A27A34FB1002AC20F /* TaskDetailViewModel.swift */; };
-		BA824E7227A34FB1002AC20F /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6B27A34FB1002AC20F /* TasksViewModel.swift */; };
-		BA824E7327A34FB1002AC20F /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6C27A34FB1002AC20F /* AddTaskViewModel.swift */; };
-		BA824E7427A34FB1002AC20F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6D27A34FB1002AC20F /* Observable.swift */; };
-		BA824E7527A34FB1002AC20F /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6E27A34FB1002AC20F /* CategoriesListViewModel.swift */; };
-		BA824E7627A34FB1002AC20F /* SubTasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA824E6F27A34FB1002AC20F /* SubTasksViewModel.swift */; };
-		C49DEEA827A36ADD0043FCDC /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE9B27A36ADD0043FCDC /* OpalImagePickerRootViewController.swift */; };
-		C49DEEA927A36ADD0043FCDC /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE9C27A36ADD0043FCDC /* Bundle+Helper.swift */; };
-		C49DEEAA27A36ADD0043FCDC /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE9D27A36ADD0043FCDC /* OpalImagePickerController.swift */; };
-		C49DEEAB27A36ADD0043FCDC /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE9E27A36ADD0043FCDC /* OpalImagePickerConfiguration.swift */; };
-		C49DEEAC27A36ADD0043FCDC /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEE9F27A36ADD0043FCDC /* UIView+Helper.swift */; };
-		C49DEEAD27A36ADD0043FCDC /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEEA027A36ADD0043FCDC /* ImagePickerCollectionViewCell.swift */; };
-		C49DEEAE27A36ADD0043FCDC /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEEA127A36ADD0043FCDC /* UIViewController+OpalImagePicker.swift */; };
-		C49DEEAF27A36ADD0043FCDC /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEEA227A36ADD0043FCDC /* TimeInterval+String.swift */; };
-		C49DEEB027A36ADD0043FCDC /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DEEA327A36ADD0043FCDC /* OpalImagePickerCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B704D3927A37998005FD29A /* AKAudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKAudioRecorder.swift; sourceTree = "<group>"; };
-		5B704D3A27A37998005FD29A /* CoreDtaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDtaManager.swift; sourceTree = "<group>"; };
-		5B704D3B27A37998005FD29A /* DirectoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryManager.swift; sourceTree = "<group>"; };
+		5B704D5B27A38707005FD29A /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
+		5B704D5C27A38707005FD29A /* Bundle+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Helper.swift"; sourceTree = "<group>"; };
+		5B704D5D27A38707005FD29A /* OpalImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerController.swift; sourceTree = "<group>"; };
+		5B704D5E27A38707005FD29A /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
+		5B704D5F27A38707005FD29A /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		5B704D6027A38707005FD29A /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B704D6127A38707005FD29A /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
+		5B704D6227A38707005FD29A /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
+		5B704D6327A38707005FD29A /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		5B704D6527A38707005FD29A /* DirectoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryManager.swift; sourceTree = "<group>"; };
+		5B704D6627A38707005FD29A /* CoreDtaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDtaManager.swift; sourceTree = "<group>"; };
+		5B704D6727A38707005FD29A /* AKAudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKAudioRecorder.swift; sourceTree = "<group>"; };
+		5B704D7527A3871B005FD29A /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		5B704D7627A3871B005FD29A /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		5B704D7827A3871B005FD29A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B704D7927A3871B005FD29A /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		5B704D7A27A3871B005FD29A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5B704D7B27A3871B005FD29A /* SubTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTasksViewController.swift; sourceTree = "<group>"; };
+		5B704D7C27A3871B005FD29A /* RecordAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		5B704D7D27A3871B005FD29A /* AddSubTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskViewController.swift; sourceTree = "<group>"; };
+		5B704D7F27A3871B005FD29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B704D8027A3871B005FD29A /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
+		5B704D8127A3871B005FD29A /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		5B704D8E27A38724005FD29A /* AddSubTaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskViewModel.swift; sourceTree = "<group>"; };
+		5B704D8F27A38724005FD29A /* TaskDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewModel.swift; sourceTree = "<group>"; };
+		5B704D9027A38724005FD29A /* TasksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		5B704D9127A38724005FD29A /* AddTaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		5B704D9227A38724005FD29A /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		5B704D9327A38724005FD29A /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
+		5B704D9427A38724005FD29A /* SubTasksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTasksViewModel.swift; sourceTree = "<group>"; };
+		5B704D9D27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = majorProject_Invincibles_ios.xcdatamodel; sourceTree = "<group>"; };
 		5BA3AB40279A24E5002958CA /* majorProject_Invincibles_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = majorProject_Invincibles_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA3AB43279A24E5002958CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA3AB45279A24E5002958CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BA3AB47279A24E5002958CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BA3AB4A279A24E5002958CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BA3AB4D279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = majorProject_Invincibles_ios.xcdatamodel; sourceTree = "<group>"; };
 		5BA3AB4F279A24E5002958CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA3AB52279A24E5002958CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA3AB54279A24E5002958CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93448BF027A34E1E00FB63C4 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
-		93448BF127A34E1E00FB63C4 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
-		93448BF327A34E1E00FB63C4 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		93448BF427A34E1E00FB63C4 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
-		93448BF527A34E1E00FB63C4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		93448BF627A34E1E00FB63C4 /* SubTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTasksViewController.swift; sourceTree = "<group>"; };
-		93448BF727A34E1E00FB63C4 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
-		93448BF827A34E1E00FB63C4 /* AddSubTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskViewController.swift; sourceTree = "<group>"; };
-		93448BF927A34E1E00FB63C4 /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
-		93448BFA27A34E1E00FB63C4 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
-		BA824E6927A34FB1002AC20F /* AddSubTaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskViewModel.swift; sourceTree = "<group>"; };
-		BA824E6A27A34FB1002AC20F /* TaskDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewModel.swift; sourceTree = "<group>"; };
-		BA824E6B27A34FB1002AC20F /* TasksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
-		BA824E6C27A34FB1002AC20F /* AddTaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
-		BA824E6D27A34FB1002AC20F /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		BA824E6E27A34FB1002AC20F /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
-		BA824E6F27A34FB1002AC20F /* SubTasksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTasksViewModel.swift; sourceTree = "<group>"; };
-		C49DEE9B27A36ADD0043FCDC /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
-		C49DEE9C27A36ADD0043FCDC /* Bundle+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Helper.swift"; sourceTree = "<group>"; };
-		C49DEE9D27A36ADD0043FCDC /* OpalImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerController.swift; sourceTree = "<group>"; };
-		C49DEE9E27A36ADD0043FCDC /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
-		C49DEE9F27A36ADD0043FCDC /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
-		C49DEEA027A36ADD0043FCDC /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
-		C49DEEA127A36ADD0043FCDC /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
-		C49DEEA227A36ADD0043FCDC /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
-		C49DEEA327A36ADD0043FCDC /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B704D5827A38707005FD29A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B704D5927A38707005FD29A /* OpalImagePicker */,
+				5B704D6527A38707005FD29A /* DirectoryManager.swift */,
+				5B704D6627A38707005FD29A /* CoreDtaManager.swift */,
+				5B704D6727A38707005FD29A /* AKAudioRecorder.swift */,
+				5B704D7427A3871B005FD29A /* View */,
+			);
+			name = Utils;
+			path = ../../../Downloads/TaskManager/TaskManager/Utils;
+			sourceTree = "<group>";
+		};
+		5B704D5927A38707005FD29A /* OpalImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5B704D5A27A38707005FD29A /* Source */,
+				5B704D6427A38707005FD29A /* SupportingFiles */,
+			);
+			path = OpalImagePicker;
+			sourceTree = "<group>";
+		};
+		5B704D5A27A38707005FD29A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B704D5B27A38707005FD29A /* OpalImagePickerRootViewController.swift */,
+				5B704D5C27A38707005FD29A /* Bundle+Helper.swift */,
+				5B704D5D27A38707005FD29A /* OpalImagePickerController.swift */,
+				5B704D5E27A38707005FD29A /* OpalImagePickerConfiguration.swift */,
+				5B704D5F27A38707005FD29A /* UIView+Helper.swift */,
+				5B704D6027A38707005FD29A /* ImagePickerCollectionViewCell.swift */,
+				5B704D6127A38707005FD29A /* UIViewController+OpalImagePicker.swift */,
+				5B704D6227A38707005FD29A /* TimeInterval+String.swift */,
+				5B704D6327A38707005FD29A /* OpalImagePickerCollectionViewLayout.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5B704D6427A38707005FD29A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5B704D7427A3871B005FD29A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B704D8D27A38724005FD29A /* ViewModel */,
+				5B704D7527A3871B005FD29A /* TasksViewController.swift */,
+				5B704D7627A3871B005FD29A /* TaskDetailViewController.swift */,
+				5B704D7727A3871B005FD29A /* Cells */,
+				5B704D7A27A3871B005FD29A /* BaseViewController.swift */,
+				5B704D7B27A3871B005FD29A /* SubTasksViewController.swift */,
+				5B704D7C27A3871B005FD29A /* RecordAudioViewController.swift */,
+				5B704D7D27A3871B005FD29A /* AddSubTaskViewController.swift */,
+				5B704D7E27A3871B005FD29A /* Main.storyboard */,
+				5B704D8027A3871B005FD29A /* CategoriesListViewController.swift */,
+				5B704D8127A3871B005FD29A /* AddTaskViewController.swift */,
+			);
+			name = View;
+			path = ../View;
+			sourceTree = "<group>";
+		};
+		5B704D7727A3871B005FD29A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B704D7827A3871B005FD29A /* PhotoCollectionViewCell.swift */,
+				5B704D7927A3871B005FD29A /* TaskTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5B704D8D27A38724005FD29A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B704D8E27A38724005FD29A /* AddSubTaskViewModel.swift */,
+				5B704D8F27A38724005FD29A /* TaskDetailViewModel.swift */,
+				5B704D9027A38724005FD29A /* TasksViewModel.swift */,
+				5B704D9127A38724005FD29A /* AddTaskViewModel.swift */,
+				5B704D9227A38724005FD29A /* Observable.swift */,
+				5B704D9327A38724005FD29A /* CategoriesListViewModel.swift */,
+				5B704D9427A38724005FD29A /* SubTasksViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ../ViewModel;
+			sourceTree = "<group>";
+		};
 		5BA3AB37279A24E5002958CA = {
 			isa = PBXGroup;
 			children = (
+				5B704D9C27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodeld */,
 				5BA3AB42279A24E5002958CA /* majorProject_Invincibles_ios */,
 				5BA3AB41279A24E5002958CA /* Products */,
 			);
@@ -116,102 +205,15 @@
 		5BA3AB42279A24E5002958CA /* majorProject_Invincibles_ios */ = {
 			isa = PBXGroup;
 			children = (
-				C49DEE9827A36ADD0043FCDC /* Utils */,
-				BA824E6827A34FB1002AC20F /* ViewModel */,
-				93448BEF27A34E1E00FB63C4 /* View */,
+				5B704D5827A38707005FD29A /* Utils */,
 				5BA3AB43279A24E5002958CA /* AppDelegate.swift */,
 				5BA3AB45279A24E5002958CA /* SceneDelegate.swift */,
 				5BA3AB47279A24E5002958CA /* ViewController.swift */,
-				5BA3AB49279A24E5002958CA /* Main.storyboard */,
 				5BA3AB4F279A24E5002958CA /* Assets.xcassets */,
 				5BA3AB51279A24E5002958CA /* LaunchScreen.storyboard */,
 				5BA3AB54279A24E5002958CA /* Info.plist */,
-				5BA3AB4C279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld */,
 			);
 			path = majorProject_Invincibles_ios;
-			sourceTree = "<group>";
-		};
-		93448BEF27A34E1E00FB63C4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				93448BF027A34E1E00FB63C4 /* TasksViewController.swift */,
-				93448BF127A34E1E00FB63C4 /* TaskDetailViewController.swift */,
-				93448BF227A34E1E00FB63C4 /* Cells */,
-				93448BF527A34E1E00FB63C4 /* BaseViewController.swift */,
-				93448BF627A34E1E00FB63C4 /* SubTasksViewController.swift */,
-				93448BF727A34E1E00FB63C4 /* RecordAudioViewController.swift */,
-				93448BF827A34E1E00FB63C4 /* AddSubTaskViewController.swift */,
-				93448BF927A34E1E00FB63C4 /* CategoriesListViewController.swift */,
-				93448BFA27A34E1E00FB63C4 /* AddTaskViewController.swift */,
-			);
-			name = View;
-			path = ../../../TaskManager/TaskManager/View;
-			sourceTree = "<group>";
-		};
-		93448BF227A34E1E00FB63C4 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				93448BF327A34E1E00FB63C4 /* PhotoCollectionViewCell.swift */,
-				93448BF427A34E1E00FB63C4 /* TaskTableViewCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		BA824E6827A34FB1002AC20F /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				BA824E6927A34FB1002AC20F /* AddSubTaskViewModel.swift */,
-				BA824E6A27A34FB1002AC20F /* TaskDetailViewModel.swift */,
-				BA824E6B27A34FB1002AC20F /* TasksViewModel.swift */,
-				BA824E6C27A34FB1002AC20F /* AddTaskViewModel.swift */,
-				BA824E6D27A34FB1002AC20F /* Observable.swift */,
-				BA824E6E27A34FB1002AC20F /* CategoriesListViewModel.swift */,
-				BA824E6F27A34FB1002AC20F /* SubTasksViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		C49DEE9827A36ADD0043FCDC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				C49DEE9927A36ADD0043FCDC /* OpalImagePicker */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		C49DEE9927A36ADD0043FCDC /* OpalImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				C49DEE9A27A36ADD0043FCDC /* Source */,
-				C49DEEA427A36ADD0043FCDC /* SupportingFiles */,
-			);
-			path = OpalImagePicker;
-			sourceTree = "<group>";
-		};
-		C49DEE9A27A36ADD0043FCDC /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C49DEE9B27A36ADD0043FCDC /* OpalImagePickerRootViewController.swift */,
-				C49DEE9C27A36ADD0043FCDC /* Bundle+Helper.swift */,
-				C49DEE9D27A36ADD0043FCDC /* OpalImagePickerController.swift */,
-				C49DEE9E27A36ADD0043FCDC /* OpalImagePickerConfiguration.swift */,
-				C49DEE9F27A36ADD0043FCDC /* UIView+Helper.swift */,
-				C49DEEA027A36ADD0043FCDC /* ImagePickerCollectionViewCell.swift */,
-				C49DEEA127A36ADD0043FCDC /* UIViewController+OpalImagePicker.swift */,
-				C49DEEA227A36ADD0043FCDC /* TimeInterval+String.swift */,
-				C49DEEA327A36ADD0043FCDC /* OpalImagePickerCollectionViewLayout.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		C49DEEA427A36ADD0043FCDC /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				5B704D3927A37998005FD29A /* AKAudioRecorder.swift */,
-				5B704D3A27A37998005FD29A /* CoreDtaManager.swift */,
-				5B704D3B27A37998005FD29A /* DirectoryManager.swift */,
-			);
-			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +276,7 @@
 			files = (
 				5BA3AB53279A24E5002958CA /* LaunchScreen.storyboard in Resources */,
 				5BA3AB50279A24E5002958CA /* Assets.xcassets in Resources */,
-				5BA3AB4B279A24E5002958CA /* Main.storyboard in Resources */,
+				5B704D8A27A3871B005FD29A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,38 +287,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA824E7427A34FB1002AC20F /* Observable.swift in Sources */,
-				BA824E7627A34FB1002AC20F /* SubTasksViewModel.swift in Sources */,
-				C49DEEAE27A36ADD0043FCDC /* UIViewController+OpalImagePicker.swift in Sources */,
-				93448BFC27A34E1E00FB63C4 /* TaskDetailViewController.swift in Sources */,
-				C49DEEB027A36ADD0043FCDC /* OpalImagePickerCollectionViewLayout.swift in Sources */,
-				C49DEEAA27A36ADD0043FCDC /* OpalImagePickerController.swift in Sources */,
-				BA824E7327A34FB1002AC20F /* AddTaskViewModel.swift in Sources */,
-				C49DEEAB27A36ADD0043FCDC /* OpalImagePickerConfiguration.swift in Sources */,
-				C49DEEAD27A36ADD0043FCDC /* ImagePickerCollectionViewCell.swift in Sources */,
-				BA824E7227A34FB1002AC20F /* TasksViewModel.swift in Sources */,
-				5B704D3C27A37998005FD29A /* AKAudioRecorder.swift in Sources */,
-				93448BFD27A34E1E00FB63C4 /* PhotoCollectionViewCell.swift in Sources */,
-				5B704D3D27A37998005FD29A /* CoreDtaManager.swift in Sources */,
-				C49DEEAC27A36ADD0043FCDC /* UIView+Helper.swift in Sources */,
-				93448BFE27A34E1E00FB63C4 /* TaskTableViewCell.swift in Sources */,
-				93448C0227A34E1E00FB63C4 /* AddSubTaskViewController.swift in Sources */,
-				93448BFB27A34E1E00FB63C4 /* TasksViewController.swift in Sources */,
-				93448C0327A34E1E00FB63C4 /* CategoriesListViewController.swift in Sources */,
-				5B704D3E27A37998005FD29A /* DirectoryManager.swift in Sources */,
-				BA824E7127A34FB1002AC20F /* TaskDetailViewModel.swift in Sources */,
-				BA824E7527A34FB1002AC20F /* CategoriesListViewModel.swift in Sources */,
-				93448BFF27A34E1E00FB63C4 /* BaseViewController.swift in Sources */,
-				C49DEEAF27A36ADD0043FCDC /* TimeInterval+String.swift in Sources */,
-				93448C0027A34E1E00FB63C4 /* SubTasksViewController.swift in Sources */,
-				5BA3AB4E279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld in Sources */,
-				93448C0427A34E1E00FB63C4 /* AddTaskViewController.swift in Sources */,
-				C49DEEA927A36ADD0043FCDC /* Bundle+Helper.swift in Sources */,
 				5BA3AB48279A24E5002958CA /* ViewController.swift in Sources */,
+				5B704D8927A3871B005FD29A /* AddSubTaskViewController.swift in Sources */,
+				5B704D7127A38707005FD29A /* DirectoryManager.swift in Sources */,
+				5B704D9E27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodeld in Sources */,
+				5B704D6B27A38707005FD29A /* OpalImagePickerConfiguration.swift in Sources */,
+				5B704D9527A38724005FD29A /* AddSubTaskViewModel.swift in Sources */,
+				5B704D8C27A3871B005FD29A /* AddTaskViewController.swift in Sources */,
+				5B704D8327A3871B005FD29A /* TaskDetailViewController.swift in Sources */,
+				5B704D6C27A38707005FD29A /* UIView+Helper.swift in Sources */,
+				5B704D9627A38724005FD29A /* TaskDetailViewModel.swift in Sources */,
+				5B704D9727A38724005FD29A /* TasksViewModel.swift in Sources */,
+				5B704D8627A3871B005FD29A /* BaseViewController.swift in Sources */,
+				5B704D9827A38724005FD29A /* AddTaskViewModel.swift in Sources */,
+				5B704D8427A3871B005FD29A /* PhotoCollectionViewCell.swift in Sources */,
 				5BA3AB44279A24E5002958CA /* AppDelegate.swift in Sources */,
-				BA824E7027A34FB1002AC20F /* AddSubTaskViewModel.swift in Sources */,
-				93448C0127A34E1E00FB63C4 /* RecordAudioViewController.swift in Sources */,
-				C49DEEA827A36ADD0043FCDC /* OpalImagePickerRootViewController.swift in Sources */,
+				5B704D9B27A38724005FD29A /* SubTasksViewModel.swift in Sources */,
+				5B704D6827A38707005FD29A /* OpalImagePickerRootViewController.swift in Sources */,
+				5B704D8727A3871B005FD29A /* SubTasksViewController.swift in Sources */,
+				5B704D9927A38724005FD29A /* Observable.swift in Sources */,
+				5B704D7227A38707005FD29A /* CoreDtaManager.swift in Sources */,
+				5B704D6F27A38707005FD29A /* TimeInterval+String.swift in Sources */,
+				5B704D6A27A38707005FD29A /* OpalImagePickerController.swift in Sources */,
+				5B704D9A27A38724005FD29A /* CategoriesListViewModel.swift in Sources */,
+				5B704D8527A3871B005FD29A /* TaskTableViewCell.swift in Sources */,
+				5B704D8227A3871B005FD29A /* TasksViewController.swift in Sources */,
+				5B704D7327A38707005FD29A /* AKAudioRecorder.swift in Sources */,
+				5B704D6D27A38707005FD29A /* ImagePickerCollectionViewCell.swift in Sources */,
+				5B704D6927A38707005FD29A /* Bundle+Helper.swift in Sources */,
+				5B704D8827A3871B005FD29A /* RecordAudioViewController.swift in Sources */,
+				5B704D6E27A38707005FD29A /* UIViewController+OpalImagePicker.swift in Sources */,
+				5B704D7027A38707005FD29A /* OpalImagePickerCollectionViewLayout.swift in Sources */,
+				5B704D8B27A3871B005FD29A /* CategoriesListViewController.swift in Sources */,
 				5BA3AB46279A24E5002958CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,10 +326,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BA3AB49279A24E5002958CA /* Main.storyboard */ = {
+		5B704D7E27A3871B005FD29A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5BA3AB4A279A24E5002958CA /* Base */,
+				5B704D7F27A3871B005FD29A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -539,13 +541,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5BA3AB4C279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodeld */ = {
+		5B704D9C27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5BA3AB4D279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodel */,
+				5B704D9D27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodel */,
 			);
-			currentVersion = 5BA3AB4D279A24E5002958CA /* majorProject_Invincibles_ios.xcdatamodel */;
-			path = majorProject_Invincibles_ios.xcdatamodeld;
+			currentVersion = 5B704D9D27A387C3005FD29A /* majorProject_Invincibles_ios.xcdatamodel */;
+			name = majorProject_Invincibles_ios.xcdatamodeld;
+			path = majorProject_Invincibles_ios/majorProject_Invincibles_ios.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
